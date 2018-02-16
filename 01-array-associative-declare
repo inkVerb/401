@@ -1,0 +1,19 @@
+#!/bin/bash
+
+echo "Watch what happens without declare -A..."
+
+#declare -A myArray
+myArray[i]=one
+myArray[ii]=two
+myArray[iii]=three
+myArray[iv]=four
+myArray[v]=five
+echo ${myArray[i]} ${myArray[ii]} ${myArray[iii]} ${myArray[iv]} ${myArray[v]}
+
+#declare -A myArrayWik
+myArrayWik=([I]=ONE [II]=TWO [III]=THREE [IV]=FOUR [V]=FIVE)
+echo ${myArrayWik[I]}
+echo ${myArrayWik[II]}
+echo ${myArrayWik[III]}
+echo ${myArrayWik[IV]}
+echo ${myArrayWik[V]}
