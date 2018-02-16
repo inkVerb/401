@@ -1,0 +1,13 @@
+#!/bin/sh
+
+declare -A myArray
+myArray[i]=one
+myArray[ii]=two
+myArray[iii]=three
+myArray[iv]=four
+myArray[v]=five
+echo ${myArray[$1]}
+
+declare -A myArrayWik
+myArrayWik=([I]=ONE [II]=TWO [III]=THREE [IV]=FOUR [V]=FIVE)
+echo ${myArrayWik[$2]}

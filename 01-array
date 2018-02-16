@@ -1,0 +1,4 @@
+#!/bin/sh
+
+myArray=(one two three)
+echo ${myArray[@]}

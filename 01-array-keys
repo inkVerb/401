@@ -1,0 +1,21 @@
+#!/bin/sh
+
+declare -A myArray
+myArray[i]=one
+myArray[ii]=two
+myArray[iii]=three
+myArray[iv]=four
+myArray[v]=five
+echo " \${myArray[@]}  ${myArray[@]}"
+echo "\${!myArray[@]}  ${!myArray[@]}"
+echo "\${#myArray[@]}  ${#myArray[@]}"
+
+declare -A myArrayWik
+myArrayWik=([I]=ONE [II]=TWO [III]=THREE [IV]=FOUR [V]=FIVE)
+echo " \${myArrayWik[@]}  ${myArrayWik[@]}"
+echo "\${!myArrayWik[@]}  ${!myArrayWik[@]}"
+echo "\${#myArrayWik[@]}  ${#myArrayWik[@]}"
+echo "
+@ for everything
+! for index IDs
+# for the number of elements"  

@@ -1,0 +1,15 @@
+#!/bin/bash
+
+functionName() {
+
+varOne=$1
+varTwo=$2
+
+local myVariable=Saucy
+
+echo "Pinker Linux tutorials are $myVariable!"
+echo "That's why I like $varOne and $varTwo!"
+
+}
+
+functionName apples strawberries
