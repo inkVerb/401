@@ -18,7 +18,7 @@ echo "${myArrayWik[III]} [III]"
 echo "${myArrayWik[IV]} [IV]"
 echo "${myArrayWik[V]} [V]"
 
-echo "Also, index IDs don't work with these associative arrays..."
+echo "Also, since these are associative arrays, index IDs don't work..."
 echo "${myArrayWik[2]} [2]"
 echo "${myArray[1]} [1]"
 echo "${myArrayWik[0]} [0]"
