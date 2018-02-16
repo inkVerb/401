@@ -1,0 +1,3 @@
+#!/bin/sh
+
+MYARRAY="#!/bin/bash;varray=(one two three)"
