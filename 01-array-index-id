@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 myArray=(one two three)
 echo ${myArray[$1]}
