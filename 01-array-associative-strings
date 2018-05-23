@@ -1,7 +1,0 @@
-#!/bin/bash
-
-declare -A nicknames
-nicknames=([John]="Johnny Cakes" [Icheb]=Itchy [Qjr]="Q Ball")
-echo ${nicknames[John]}
-echo ${nicknames[Icheb]}
-echo ${nicknames[Qjr]}

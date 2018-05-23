@@ -1,6 +1,0 @@
-#!/bin/bash
-
-nicknames=( "Johnny Cakes" Itchy "Q Ball" )
-echo ${nicknames[0]}
-echo ${nicknames[1]}
-echo ${nicknames[2]}

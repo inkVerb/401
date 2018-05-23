@@ -1,6 +1,0 @@
-#!/bin/bash
-
-myFunction() {
-echo "Hello functioning world!"
-}
-myFunction
