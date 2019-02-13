@@ -1,0 +1,10 @@
+#!/bin/sh
+
+Max="$1"
+
+Count=1
+
+while [ "$Count" -le "$Max" ]; do
+echo "Line No. $Count:	" >> countfile  # Note `echo "$Count	" >> countfile` contains a "tab" in the echo statement
+Count=$(expr $Count + 1)
+done
