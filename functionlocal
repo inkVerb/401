@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# Create the function (nothing happens yet)
+varfunction() {
+local VARa="apricots"
+VARb="berries"
+
+echo "function VARa = $VARa"
+echo "function VARb = $VARb"
+}
+
+# Set the global variables
+VARa="apples"
+VARb="bananas"
+
+# echo the global variables
+echo "script VARa = $VARa"
+echo "script VARb = $VARb"
+
+# Call the function
+# VARa sets "local"
+# VARb sets "global"
+varfunction
+
+# echo the global variables again to see what changed
+echo "script VARa = $VARa"
+echo "script VARb = $VARb"
