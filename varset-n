@@ -1,0 +1,31 @@
+#!/bin/bash
+
+# The variable $VAR is NOT set
+echo "1. \$VAR is NOT yet set!"
+
+if [ -n $VAR ]; then
+echo "NOT empty set: $VAR"
+else
+echo "IS empty set: $VAR"
+fi
+
+# Now, the variable $VAR IS set:
+VAR=varSet
+echo "2. \$VAR has been set!"
+
+if [ -n $VAR ]; then
+echo "NOT empty set: $VAR"
+else
+echo "IS empty set: $VAR"
+fi
+
+
+# Now, the variable $VAR is unset:
+unset VAR
+echo "3. \$VAR has been UNset!"
+
+if [ -n $VAR ]; then
+echo "NOT empty set: $VAR"
+else
+echo "IS empty set: $VAR"
+fi

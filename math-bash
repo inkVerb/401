@@ -1,0 +1,17 @@
+#!/bin/bash
+
+_5=5
+_6=6
+
+# Shell:
+echo "Trying Shell..."
+if [ $_5 -lt $_6 ]; then
+echo "Less than! It works!"
+fi
+
+# BASH:
+echo "Trying BASH..."
+if (( $_5 < $_6 )); then
+echo "Less than! It works!"
+fi
+
