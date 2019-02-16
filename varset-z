@@ -1,6 +1,5 @@
 #!/bin/sh
 
-# The variable $VAR is NOT set
 echo "1. \$VAR is NOT yet set!"
 
 if [ -z $VAR ]; then
@@ -9,7 +8,6 @@ else
 echo "IS set: $VAR"
 fi
 
-# Now, the variable $VAR IS set:
 VAR=varSet
 echo "2. \$VAR has been set!"
 
@@ -19,8 +17,6 @@ else
 echo "IS set: $VAR"
 fi
 
-
-# Now, the variable $VAR is unset:
 unset VAR
 echo "3. \$VAR has been UNset!"
 

@@ -1,13 +1,11 @@
 #!/bin/sh
 
 echo "No variable, stating \"true\""
-# Simple test: true
 true && echo "AND/OR is true." || echo "AND/OR is false."
 true && echo "AND is true."
 true || echo "OR is false."
 
 echo "No variable, stating \"false\""
-# Same simple test: false
 false && echo "AND/OR is true." || echo "AND/OR is false."
 false && echo "AND is true."
 false || echo "OR is false."

@@ -3,7 +3,6 @@
 VAR=apples
 echo "Variable set to: $VAR"
 
-# Simple test:
 $VAR && echo "AND/OR is true." || echo "AND/OR is false."
 $VAR && echo "AND is true."
 $VAR || echo "OR is false."
@@ -11,7 +10,6 @@ $VAR || echo "OR is false."
 VAR=pencils
 echo "Variable set to: $VAR"
 
-# Same simple test:
 $VAR && echo "AND/OR is true." || echo "AND/OR is false."
 $VAR && echo "AND is true."
 $VAR || echo "OR is false."
