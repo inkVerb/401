@@ -1,0 +1,6 @@
+#!/bin/sh
+
+IFS=:
+for pdir in $(echo "$PATH"); do
+  echo $pdir
+done
