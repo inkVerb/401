@@ -1,0 +1,54 @@
+#!/bin/sh
+
+_1=1
+_2=2
+_3=3
+_4=4
+_5=five
+_6=six
+_7=7
+_8=eight
+_9=9
+_10=10
+s1='1'
+s2='2'
+s3='3'
+s4='4'
+s5='five'
+s6='six'
+s7='7'
+s8='eight'
+s9='9'
+s10='10'
+d1="1"
+d2="2"
+d3="3"
+d4="4"
+d5="five"
+d6="six"
+d7="7"
+d8="eight"
+d9="9"
+d10="10"
+
+# Below, Shell will figure out that the values are integers, so it can do arithmetic with them:
+echo 1 + 2 =  `expr $_1 + $_2`
+echo 4 x 7 =  `expr $_4 \* $_7`
+echo 9 - 3 =  `expr $_9 - $_3`
+echo 10 / 5 = `expr $_10 / $_2`
+echo 1 + 2 =  `expr $s1 + $s2`
+echo 4 x 7 =  `expr $s4 \* $s7`
+echo 9 - 3 =  `expr $s9 - $s3`
+echo 10 / 5 = `expr $s10 / $s2`
+echo 1 + 2 =  `expr $d1 + $d2`
+echo 4 x 7 =  `expr $d4 \* $d7`
+echo 9 - 3 =  `expr $d9 - $d3`
+echo 10 / 5 = `expr $d10 / $d2`
+
+# Below, Shell will figure out that the values of 5, 6, and 8 are strings, not integers, and thus report an error:
+echo eight - 3 = `expr $_8 - $_3`
+echo five \* six = `expr $_5 \* $_6`
+echo eight - 3 = `expr $s8 - $s3`
+echo five \* six = `expr $s5 \* $s6`
+echo eight - 3 = `expr $d8 - $d3`
+echo five \* six = `expr $d5 \* $d6`

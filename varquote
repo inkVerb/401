@@ -1,0 +1,10 @@
+#!/bin/sh
+
+VAR="Hello world!"
+
+VARsq='$VAR' # "$VAR" will become the value.
+
+VARdq="$VAR" # The value of $VAR, "Hello world!" will bcome the value.
+
+echo $VARsq
+echo $VARdq

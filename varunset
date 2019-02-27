@@ -1,0 +1,40 @@
+#!/bin/sh
+
+myVariable="This is my variable."
+
+myArguments="$@"
+
+myArgCount="$#"
+
+shift
+
+myShiftedArgs="$@"
+
+myShiftedCount="$#"
+
+echo"Before unset
+myArguments    = $myArguments
+myArgCount     = $myArgCount
+myShiftedArgs  = $myShiftedArgs
+myShiftedCount = $myShiftedCount
+"
+
+unset myArguments
+
+echo"After first unset
+myArguments    = $myArguments
+myArgCount     = $myArgCount
+myShiftedArgs  = $myShiftedArgs
+myShiftedCount = $myShiftedCount
+"
+
+unset myArgCount
+unset myShiftedArgs
+unset myShiftedCount
+
+echo"After all unset
+myArguments    = $myArguments
+myArgCount     = $myArgCount
+myShiftedArgs  = $myShiftedArgs
+myShiftedCount = $myShiftedCount
+"

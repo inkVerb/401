@@ -1,0 +1,21 @@
+#!/bin/sh
+
+echo "$? first echo"
+
+echo "I am a hot sweet potato."
+
+echo "$? sweet potato echo"
+
+if [ -f "iamhere" ]; then
+echo "$? iamhere echo"
+fi
+
+if [ -f "iamNOThere" ]; then
+echo "I shouldn't be here."
+else
+echo "$? iamNOThere echo, so exit code \"1\""
+fi
+
+notacommand
+
+echo "$? notacommand is not a real command, so exit code \"127\""

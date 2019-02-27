@@ -1,0 +1,45 @@
+#!/bin/sh
+
+TRUEsq='true'
+TRUEdq="true"
+TRUEvar=true
+FALSEsq='false'
+FALSEdq="false"
+FALSEvar=false
+
+# These tests already have the answer, "true" or "false"; true/false is how Shell tests work!
+if $TRUEsq ; then
+    echo TRUEsq $TRUEsq
+else
+    echo FAIL $FALSEdq
+fi
+
+if $TRUEdq ; then
+    echo TRUEdq $TRUEdq
+else
+    echo FAIL $FALSEdq
+fi
+
+if $TRUEvar ; then
+    echo TRUEvar $TRUEvar
+else
+    echo FAIL $FALSEdq
+fi
+
+if $FALSEsq ; then
+    echo FALSEsq
+else
+    echo FAIL $FALSEsq
+fi
+
+if $FALSEdq ; then
+    echo FALSEdq
+else
+    echo FAIL $FALSEdq
+fi
+
+if $FALSEvar ; then
+    echo FALSEvar
+else
+    echo FAIL $FALSEvar
+fi

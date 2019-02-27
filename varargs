@@ -1,0 +1,9 @@
+#!/bin/sh
+
+echo "Before shift
+$@"
+
+shift
+
+echo "After shift
+$@"
