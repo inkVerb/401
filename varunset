@@ -12,7 +12,7 @@ myShiftedArgs="$@"
 
 myShiftedCount="$#"
 
-echo"Before unset
+echo "Before unset
 myArguments    = $myArguments
 myArgCount     = $myArgCount
 myShiftedArgs  = $myShiftedArgs
@@ -21,7 +21,7 @@ myShiftedCount = $myShiftedCount
 
 unset myArguments
 
-echo"After first unset
+echo "After first unset
 myArguments    = $myArguments
 myArgCount     = $myArgCount
 myShiftedArgs  = $myShiftedArgs
@@ -32,7 +32,7 @@ unset myArgCount
 unset myShiftedArgs
 unset myShiftedCount
 
-echo"After all unset
+echo "After all unset
 myArguments    = $myArguments
 myArgCount     = $myArgCount
 myShiftedArgs  = $myShiftedArgs
