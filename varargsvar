@@ -1,0 +1,17 @@
+#!/bin/sh
+
+echo "
+Arguments entered via \$@ ..."
+./varargs $@
+
+echo "
+Arguments entered via \$(echo \$@) ..."
+./varargs $(echo $@)
+
+echo "
+Arguments entered via \$* ..."
+./varargs $*
+
+echo "
+Arguments entered via \$(echo \$*) ..."
+./varargs $(echo $*)

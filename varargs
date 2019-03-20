@@ -1,9 +1,19 @@
 #!/bin/sh
 
-echo "Before shift
-$@"
+echo "
+@ Before shift @@@@@
+$@
+
+* Before shift *****
+$*
+"
 
 shift
 
-echo "After shift
-$@"
+echo "
+@ After shift @@@@@
+$@
+
+* After shift *****
+$*
+"
