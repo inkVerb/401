@@ -1,0 +1,29 @@
+#!/bin/bash
+
+echo "without quotes:"
+echo $9
+echo $10
+echo $11
+echo $12
+echo $13
+
+echo "with quotes:"
+echo "$9"
+echo "$10"
+echo "$11"
+echo "$12"
+echo "$13"
+
+echo "{brackets} without quotes:"
+echo ${9}
+echo ${10}
+echo ${11}
+echo ${12}
+echo ${13}
+
+echo "{brackets} with quotes:"
+echo "${9}"
+echo "${10}"
+echo "${11}"
+echo "${12}"
+echo "${13}"
