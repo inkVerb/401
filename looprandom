@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 IFS=$'\n' # Use the $IFS variable to define a "loopable" field as "each" new line"
 
@@ -6,7 +6,8 @@ for EveryLine in $(cat countfile); do
 
 RANDOM_string="$(pwgen -s -1 8)" # Each $RANDOM_string will be different in each loop
 
-echo "$EveryLine" | sed "s/add2end/$RANDOM_string/" >> randomlooped
+echo "$EveryLine" | sed "s/add2end/IFS_$RANDOM_string/"
+echo "$EveryLine" | sed "s/add2end/IFS_$RANDOM_string/" >> randomlooped
 
 done
 

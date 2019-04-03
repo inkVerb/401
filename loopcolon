@@ -1,0 +1,9 @@
+#!/bin/sh
+
+IFS=$':' # Use the $IFS variable to define a "loopable" field as "each" colon
+
+for EachColon in $(cat countfile); do
+
+echo "IFS_Colon_ $EachColon"
+
+done

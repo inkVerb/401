@@ -1,10 +1,10 @@
-#!/bin/sh
+#!/bin/bash
 
 IFS=$'\t' # Use the $IFS variable to define a "loopable" field as "each" new line"
 
 for EveryTAB in $(cat randomlooped); do
 
-echo "IFS set as \"\t\" will loop this once: $EveryTAB"
+echo "IFS_tab_ $EveryTAB"
 
 done
 

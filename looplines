@@ -1,9 +1,9 @@
-#!/bin/sh
+#!/bin/bash
 
-IFS=$'\n' # Use the $IFS variable to define a "loopable" field as "each" new line"
+IFS=$'\n' # Use the $IFS variable to define a "loopable" field as "each" new line
 
 for EachLine in $(cat countfile); do
 
-echo "IFS looped this once: $EachLine"
+echo "IFS_ $EachLine"
 
 done
