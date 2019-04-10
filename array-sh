@@ -1,0 +1,9 @@
+#!/bin/sh
+
+ARRAY=(one two three)
+
+echo ${Array[0]}
+echo ${Array[1]}
+echo ${Array[2]}
+echo ${ARRAY[@]}
+
