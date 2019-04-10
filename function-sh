@@ -1,0 +1,7 @@
+#!/bin/sh
+
+theFunction() {
+echo "I am functional."  
+}
+
+theFunction
