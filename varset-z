@@ -2,7 +2,7 @@
 
 echo "1. \$VAR is NOT yet set!"
 
-if [ -z $VAR ]; then
+if [ -z "$VAR" ]; then
 echo "NOT set: $VAR"
 else
 echo "IS set: $VAR"
@@ -11,7 +11,7 @@ fi
 VAR=varSet
 echo "2. \$VAR has been set!"
 
-if [ -z $VAR ]; then
+if [ -z "$VAR" ]; then
 echo "NOT set: $VAR"
 else
 echo "IS set: $VAR"
@@ -20,7 +20,7 @@ fi
 unset VAR
 echo "3. \$VAR has been UNset!"
 
-if [ -z $VAR ]; then
+if [ -z "$VAR" ]; then
 echo "NOT set: $VAR"
 else
 echo "IS set: $VAR"
