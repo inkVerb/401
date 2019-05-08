@@ -31,7 +31,6 @@ d8="eight"
 d9="9"
 d10="10"
 
-# Below, Shell will figure out that the values are integers, so it can do arithmetic with them:
 echo 1 + 2 =  `expr $_1 + $_2`
 echo 4 x 7 =  `expr $_4 \* $_7`
 echo 9 - 3 =  `expr $_9 - $_3`
@@ -45,7 +44,6 @@ echo 4 x 7 =  `expr $d4 \* $d7`
 echo 9 - 3 =  `expr $d9 - $d3`
 echo 10 / 5 = `expr $d10 / $d2`
 
-# Below, Shell will figure out that the values of 5, 6, and 8 are strings, not integers, and thus report an error:
 echo eight - 3 = `expr $_8 - $_3`
 echo five \* six = `expr $_5 \* $_6`
 echo eight - 3 = `expr $s8 - $s3`

@@ -7,7 +7,6 @@ FALSEsq='false'
 FALSEdq="false"
 FALSEvar=false
 
-# These tests already have the answer, "true" or "false"; true/false is how Shell tests work!
 if $TRUEsq ; then
     echo TRUEsq $TRUEsq
 else

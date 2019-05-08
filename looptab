@@ -1,6 +1,6 @@
 #!/bin/bash
 
-IFS=$'\t' # Use the $IFS variable to define a "loopable" field as "each" new line"
+IFS=$'\t'
 
 for EveryTAB in $(cat randomlooped); do
 
@@ -8,4 +8,4 @@ echo "IFS_tab_ $EveryTAB"
 
 done
 
-unset IFS # We don't want our strange settings messing with other things.
+unset IFS

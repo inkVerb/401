@@ -1,6 +1,6 @@
 #!/bin/bash
 
-IFS=$'\n' # Use the $IFS variable to define a "loopable" field as "each" new line
+IFS=$'\n'
 
 for EachLine in $(cat countfile); do
 

@@ -1,13 +1,11 @@
 #!/bin/sh
 
 echo "Listing a real directory: iamhere"
-# ls a real directory
 ls iamhere && echo "AND/OR is true, exit code: $?" || echo "AND/OR is false, exit code: $?"
 ls iamhere && echo "AND is true, exit code: $?"
 ls iamhere || echo "OR is false, exit code: $?"
 
 echo "Listing a fake directory: nothere"
-# ls a fake directory
 ls nothere && echo "AND/OR is true, exit code: $?" || echo "AND/OR is false, exit code: $?"
 ls nothere && echo "AND is true, exit code: $?"
 ls nothere || echo "OR is false, exit code: $?"

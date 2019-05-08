@@ -2,9 +2,9 @@
 
 VAR="Hello world!"
 
-VARsq='$VAR' # "$VAR" will become the value.
+VARsq='$VAR'
 
-VARdq="$VAR" # The value of $VAR, "Hello world!" will bcome the value.
+VARdq="$VAR"
 
 echo $VARsq
 echo $VARdq
