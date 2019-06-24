@@ -1,0 +1,5 @@
+#!/bin/sh -xe
+
+echo "Starting verbchacho test"
+ls iamnothere
+echo "Done with verbchacho test"
