@@ -1,31 +1,31 @@
 #!/bin/bash
 
-myVAR="Pineapple pie"
+myVar="Pineapple pie"
 
 echo "without quotes:"
 echo $9
 echo $10
 echo $11
 echo $12
-echo $myVAR
+echo $myVar
 
 echo "with quotes:"
 echo "$9"
 echo "$10"
 echo "$11"
 echo "$12"
-echo "$myVAR"
+echo "$myVar"
 
 echo "{brackets} without quotes:"
 echo ${9}
 echo ${10}
 echo ${11}
 echo ${12}
-echo ${myVAR}
+echo ${myVar}
 
 echo "{brackets} with quotes:"
 echo "${9}"
 echo "${10}"
 echo "${11}"
 echo "${12}"
-echo "${myVAR}"
+echo "${myVar}"

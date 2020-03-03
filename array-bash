@@ -1,9 +1,8 @@
 #!/bin/bash
 
-ARRAY=(one two three)
+Array=(one two three)
 
-echo ${ARRAY[0]}
-echo ${ARRAY[1]}
-echo ${ARRAY[2]}
-echo ${ARRAY[@]}
-
+echo ${Array[0]}
+echo ${Array[1]}
+echo ${Array[2]}
+echo ${Array[@]}

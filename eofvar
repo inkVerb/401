@@ -1,6 +1,6 @@
 #!/bin/sh
 
-EOFVAR=$(cat <<EOF
+EOFvar=$(cat <<EOF
 I'm the heredoc variable.
 I have multiple lines.
 I done.
@@ -8,7 +8,7 @@ EOF
 )
 
 echo "No quote echo:"
-echo $EOFVAR
+echo $EOFvar
 
 echo "Quoted echo:"
-echo "$EOFVAR"
+echo "$EOFvar"

@@ -1,27 +1,27 @@
 #!/bin/sh
 
-echo "1. \$VAR is NOT yet set!"
+echo "1. \$Var is NOT yet set!"
 
-if [ -n "$VAR" ]; then
-echo "NOT empty set: $VAR"
+if [ -n "$Var" ]; then
+echo "NOT empty set: $Var"
 else
-echo "IS empty set: $VAR"
+echo "IS empty set: $Var"
 fi
 
-VAR=varSet
-echo "2. \$VAR has been set!"
+Var=varSet
+echo "2. \$Var has been set!"
 
-if [ -n "$VAR" ]; then
-echo "NOT empty set: $VAR"
+if [ -n "$Var" ]; then
+echo "NOT empty set: $Var"
 else
-echo "IS empty set: $VAR"
+echo "IS empty set: $Var"
 fi
 
-unset VAR
-echo "3. \$VAR has been UNset!"
+unset Var
+echo "3. \$Var has been UNset!"
 
-if [ -n "$VAR" ]; then
-echo "NOT empty set: $VAR"
+if [ -n "$Var" ]; then
+echo "NOT empty set: $Var"
 else
-echo "IS empty set: $VAR"
+echo "IS empty set: $Var"
 fi

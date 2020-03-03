@@ -1,44 +1,44 @@
 #!/bin/sh
 
-TRUEsq='true'
-TRUEdq="true"
-TRUEvar=true
-FALSEsq='false'
-FALSEdq="false"
-FALSEvar=false
+TrueSQ='true'
+TrueDQ="true"
+TrueVar=true
+FalseSQ='false'
+FalseDQ="false"
+FalseVar=false
 
-if $TRUEsq ; then
-    echo TRUEsq $TRUEsq
+if $TrueSQ ; then
+    echo TrueSQ $TrueSQ
 else
-    echo FAIL $FALSEdq
+    echo FAIL $FalseDQ
 fi
 
-if $TRUEdq ; then
-    echo TRUEdq $TRUEdq
+if $TrueDQ ; then
+    echo TrueDQ $TrueDQ
 else
-    echo FAIL $FALSEdq
+    echo FAIL $FalseDQ
 fi
 
-if $TRUEvar ; then
-    echo TRUEvar $TRUEvar
+if $TrueVar ; then
+    echo TrueVar $TrueVar
 else
-    echo FAIL $FALSEdq
+    echo FAIL $FalseDQ
 fi
 
-if $FALSEsq ; then
-    echo FALSEsq
+if $FalseSQ ; then
+    echo FalseSQ
 else
-    echo FAIL $FALSEsq
+    echo FAIL $FalseSQ
 fi
 
-if $FALSEdq ; then
-    echo FALSEdq
+if $FalseDQ ; then
+    echo FalseDQ
 else
-    echo FAIL $FALSEdq
+    echo FAIL $FalseDQ
 fi
 
-if $FALSEvar ; then
-    echo FALSEvar
+if $FalseVar ; then
+    echo FalseVar
 else
-    echo FAIL $FALSEvar
+    echo FAIL $FalseVar
 fi

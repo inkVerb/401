@@ -1,16 +1,15 @@
 #!/bin/sh
 
-VAR=true
-echo "Variable set to: $VAR"
+Var=true
+echo "Variable set to: $Var"
 
-$VAR && echo "AND/OR is true." || echo "AND/OR is false."
-$VAR && echo "AND is true."
-$VAR || echo "OR is false."
+$Var && echo "And/Or is true." || echo "And/Or is false."
+$Var && echo "And is true."
+$Var || echo "Or is false."
 
-VAR=false
-echo "Variable set to: $VAR"
+Var=false
+echo "Variable set to: $Var"
 
-$VAR && echo "AND/OR is true." || echo "AND/OR is false."
-$VAR && echo "AND is true."
-$VAR || echo "OR is false."
-
+$Var && echo "And/Or is true." || echo "And/Or is false."
+$Var && echo "And is true."
+$Var || echo "Or is false."

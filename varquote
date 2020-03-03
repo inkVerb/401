@@ -1,10 +1,10 @@
 #!/bin/sh
 
-VAR="Hello world!"
+Var="Hello world!"
 
-VARsq='$VAR'
+VarSQ='$Var'
 
-VARdq="$VAR"
+VarDQ="$Var"
 
-echo $VARsq
-echo $VARdq
+echo $VarSQ
+echo $VarDQ

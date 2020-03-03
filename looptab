@@ -2,9 +2,9 @@
 
 IFS=$'\t'
 
-for EveryTAB in $(cat randomlooped); do
+for EveryTab in $(cat randomlooped); do
 
-echo "IFS_tab_ $EveryTAB"
+echo "IFS_tab_ $EveryTab"
 
 done
 

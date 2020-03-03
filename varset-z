@@ -1,27 +1,27 @@
 #!/bin/sh
 
-echo "1. \$VAR is NOT yet set!"
+echo "1. \$Var is NOT yet set!"
 
-if [ -z "$VAR" ]; then
-echo "NOT set: $VAR"
+if [ -z "$Var" ]; then
+echo "NOT set: $Var"
 else
-echo "IS set: $VAR"
+echo "IS set: $Var"
 fi
 
-VAR=varSet
-echo "2. \$VAR has been set!"
+Var=varSet
+echo "2. \$Var has been set!"
 
-if [ -z "$VAR" ]; then
-echo "NOT set: $VAR"
+if [ -z "$Var" ]; then
+echo "NOT set: $Var"
 else
-echo "IS set: $VAR"
+echo "IS set: $Var"
 fi
 
-unset VAR
-echo "3. \$VAR has been UNset!"
+unset Var
+echo "3. \$Var has been UNset!"
 
-if [ -z "$VAR" ]; then
-echo "NOT set: $VAR"
+if [ -z "$Var" ]; then
+echo "NOT set: $Var"
 else
-echo "IS set: $VAR"
+echo "IS set: $Var"
 fi

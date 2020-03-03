@@ -1,5 +1,5 @@
 #!/bin/sh
 
-sedvar="$1"
+sedVar="$1"
 
-sed "s/YOUR_CITY/$sedvar/" sedfile
+sed "s/Your_City/$sedVar/" sedfile

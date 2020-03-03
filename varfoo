@@ -1,9 +1,9 @@
 #!/bin/sh
 
-var="fooapplefoo"
-var1=${var#foo}
-var2=${var%foo}
+Var="fooapplefoo"
+Var1=${Var#foo}
+Var2=${Var%foo}
 
-echo "var: $var
-var1: $var1
-var2: $var2"
+echo "Var: $Var
+Var1: $Var1
+Var2: $Var2"

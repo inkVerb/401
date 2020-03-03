@@ -1,20 +1,20 @@
 #!/bin/bash
 
 varfunction() {
-local VARa="apricots"
-VARb="berries"
+local VarA="apricots"
+VarB="berries"
 
-echo "function VARa = $VARa"
-echo "function VARb = $VARb"
+echo "function VarA = $VarA"
+echo "function VarB = $VarB"
 }
 
-VARa="apples"
-VARb="bananas"
+VarA="apples"
+VarB="bananas"
 
-echo "script VARa = $VARa"
-echo "script VARb = $VARb"
+echo "script VarA = $VarA"
+echo "script VarB = $VarB"
 
 varfunction
 
-echo "script VARa = $VARa"
-echo "script VARb = $VARb"
+echo "script VarA = $VarA"
+echo "script VarB = $VarB"

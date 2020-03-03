@@ -1,5 +1,5 @@
 #!/bin/sh
 
-myVAR="Hello world!"
+myVar="Hello world!"
 
 ~/School/VIP/shell/401/variable-exported

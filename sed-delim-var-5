@@ -1,8 +1,8 @@
 #!/bin/sh
 
-sedvar="$1"
+sedVar="$1"
 echo "
-sed \"s YOUR_CITY $sedvar \" sedfile
-RETURNS..."
+sed \"s Your_City $sedVar \" sedfile
+Returns..."
 
-sed "s YOUR_CITY $sedvar " sedfile
+sed "s Your_City $sedVar " sedfile
