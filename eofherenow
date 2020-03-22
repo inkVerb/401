@@ -1,0 +1,13 @@
+#!/bin/sh
+
+myVariable="I AM A VARIABLE VALUE!"
+
+cat <<'EOF' > eofout
+I'm nowdoc text.
+$myVariable
+EOF
+
+cat <<EOF >> eofout
+I'm heredoc text.
+$myVariable
+EOF
