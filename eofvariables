@@ -1,0 +1,12 @@
+#!/bin/sh
+
+myVariable="I AM A VARIABLE VALUE!"
+
+EOFvar=$(cat <<EOF
+I have a variable.
+Working: $myVariable
+Cancel: \$myVariable
+EOF
+)
+
+echo "$EOFvar"
