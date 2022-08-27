@@ -1,0 +1,15 @@
+#!/bin/bash
+
+willexit="$1"
+
+if [ -n "$willexit" ]; then
+  if [ "$willexit" = "three" ]; then
+    exit 3
+  elif [ "$willexit" = "fortyfive" ]; then
+    exit 45
+  else
+    exit 1
+  fi
+else
+  noargument="true"
+fi

@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# We pass the first argument to the child script
+./child-exit "$1"
+
+# Uncomment to use the magical pass-exit line:
+#e="$?"; [[ "$e" = "0" ]] || exit "$e"
+
+# Without this, the magical pass-exit line isn't needed because the script ends
+if [ "$noargument" = "true" ]; then
+  exit
+fi
+
+echo "Parent is finished."
