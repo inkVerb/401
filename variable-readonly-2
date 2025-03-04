@@ -3,4 +3,7 @@
 readonly MYROVAR="I am read-only, a never-changing constant!"
 echo "Whatami: $MYROVAR"
 
+# Try to unset the variable
+unset MYROVAR
+
 MYROVAR="I am changed!"

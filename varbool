@@ -10,35 +10,35 @@ FalseVar=false
 if $TrueSQ ; then
     echo TrueSQ $TrueSQ
 else
-    echo FAIL $FalseDQ
+    echo FAIL TrueSQ $FalseDQ
 fi
 
 if $TrueDQ ; then
     echo TrueDQ $TrueDQ
 else
-    echo FAIL $FalseDQ
+    echo FAIL TrueDQ $FalseDQ
 fi
 
 if $TrueVar ; then
     echo TrueVar $TrueVar
 else
-    echo FAIL $FalseDQ
+    echo FAIL TrueVar $FalseDQ
 fi
 
 if $FalseSQ ; then
     echo FalseSQ
 else
-    echo FAIL $FalseSQ
+    echo FAIL FalseSQ $FalseSQ
 fi
 
 if $FalseDQ ; then
     echo FalseDQ
 else
-    echo FAIL $FalseDQ
+    echo FAIL FalseDQ $FalseDQ
 fi
 
 if $FalseVar ; then
     echo FalseVar
 else
-    echo FAIL $FalseVar
+    echo FAIL FalseVar $FalseVar
 fi
