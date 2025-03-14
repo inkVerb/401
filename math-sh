@@ -3,13 +3,18 @@
 _5=5
 _6=6
 
-echo "Trying Shell..."
+echo "Trying Shell flags..."
 if [ $_5 -lt $_6 ]; then
 echo "Less than! It works!"
 fi
 
-echo "Trying BASH..."
+echo "Trying BASH operators..."
 if (( $_5 < $_6 )); then
+echo "Less than! It works!"
+fi
+
+echo "Trying BASH operators..."
+if [[ $_5 < $_6 ]]; then
 echo "Less than! It works!"
 fi
 
