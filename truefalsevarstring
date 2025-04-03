@@ -3,13 +3,15 @@
 Var=apples
 echo "Variable set to: $Var"
 
-$Var && echo "And/Or is true." || echo "And/Or is false."
 $Var && echo "And is true."
+$Var && echo "And/Or is true." || echo "And/Or is false."
+$Var && echo "And/Or is true." || echo "And/Or is false." && echo "Last also true."
 $Var || echo "Or is false."
 
 Var=pencils
 echo "Variable set to: $Var"
 
-$Var && echo "And/Or is true." || echo "And/Or is false."
 $Var && echo "And is true."
+$Var && echo "And/Or is true." || echo "And/Or is false."
+$Var && echo "And/Or is true." || echo "And/Or is false." && echo "Last also true."
 $Var || echo "Or is false."
