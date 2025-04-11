@@ -6,9 +6,4 @@
 # Uncomment to use the one line exit pass:
 #e="$?"; [[ "$e" = "0" ]] || exit "$e"
 
-# Without this, the one line exit pass isn't needed because the script ends
-if [ "$noargument" = "true" ]; then
-  exit
-fi
-
 echo "Parent is finished."

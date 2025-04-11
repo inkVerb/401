@@ -10,6 +10,4 @@ if [ -n "$willexit" ]; then
   else
     exit 1
   fi
-else
-  noargument="true"
 fi
