@@ -1,7 +1,7 @@
 #!/bin/bash
 
 varfunction() {
-local VarA="apricots"
+VarA="apricots"
 VarB="berries"
 
 echo "function VarA = $VarA"
@@ -11,10 +11,16 @@ echo "function VarB = $VarB"
 VarA="apples"
 VarB="bananas"
 
+echo "
+Set variables:"
 echo "script VarA = $VarA"
 echo "script VarB = $VarB"
 
+echo "
+Call function:"
 varfunction
 
-echo "script VarA = $VarA"
-echo "script VarB = $VarB"
+echo "
+Final Countdown:"
+echo "final VarA = $VarA"
+echo "final VarB = $VarB"
