@@ -3,6 +3,6 @@
 myVariable="I AM A VARIABLE VALUE!"
 
 cat <<'EOF'
-I'm heredoc text.
+I'm nowdoc text.
 $myVariable
 EOF
